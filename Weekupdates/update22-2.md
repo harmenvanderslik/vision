@@ -5,4 +5,4 @@
 - Nog geen opdracht afgetekend.
 
 ## Algemene voortgang:
-- Loop prima op schema tot nu toe.
+- Loop prima op schema tot nu toe. Moet nog wat filmpjes terugkijken om het concept weer te begrijpen om verder te kunnen.
