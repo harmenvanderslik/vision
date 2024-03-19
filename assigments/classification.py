@@ -27,10 +27,9 @@ print(f"Nauwkeurigheid op de trainingsdata: {accuracy_train * 100:.2f}%")
 accuracy_test = accuracy_score(y_test, y_pred_test)
 print(f"Nauwkeurigheid op de testdata: {accuracy_test * 100:.2f}%")
 
-# Optioneel: Toon een afbeelding uit de testset met de voorspelling
-# Dit is een voorbeeld van hoe je een specifieke afbeelding en de voorspelling kunt tonen
-index_to_show = -4
-predicted = clf.predict(X_test[index_to_show:index_to_show+1])
+# Toon een afbeelding uit de testset met de voorspelling
+index_to_show = 4
+predicted = clf.predict(X_test[index_to_show:index_to_show-1])
 image = X_test[index_to_show].reshape(8, 8)
 print(f"Voorspelde waarde van getoonde afbeelding: {predicted[0]}")
 plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
